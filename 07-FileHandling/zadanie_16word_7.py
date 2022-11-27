@@ -1,0 +1,6 @@
+file=open("linijek30.txt",'r',encoding='UTF-8')
+tekst=file.read()
+copy = open("copy.txt",'a',encoding='UTF-8')
+copy.write(tekst)
+file.close()
+copy.close()

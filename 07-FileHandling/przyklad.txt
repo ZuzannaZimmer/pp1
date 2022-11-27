@@ -1,0 +1,1 @@
+To jest przyk³adowy dokument - plik TXT zapisany w standardzie kodowania Windows 1250.

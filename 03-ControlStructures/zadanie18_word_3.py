@@ -1,5 +1,10 @@
 while True:
     wartosc = int(input('Wpisz dowolną liczbę pieniędzy w złotówkach (bez groszy): '))
+    
+    if wartosc ==0:
+        print(f'0 monet')
+        continue
+
     if wartosc != 0:
         cal=wartosc//5
         reszta=wartosc%5

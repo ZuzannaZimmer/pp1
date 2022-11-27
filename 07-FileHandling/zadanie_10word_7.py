@@ -1,0 +1,6 @@
+file = open("dane.txt",'x')
+file.write('Zuzanna\nZimmer\nUniwersytet Ekonomiczny\nInformatyka stosowana')
+file = open("dane.txt",'r')
+filee=file.read()
+print(filee)
+file.close()
