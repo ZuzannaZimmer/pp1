@@ -22,5 +22,7 @@ a=[{
 
 x=0
 while x<len(a):
-    print(a[x])
+    # print(a[x])
+    for key,value in a[x].items():
+        print(key,':',value)
     x=x+1
